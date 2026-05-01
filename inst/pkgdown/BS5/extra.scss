@@ -130,6 +130,10 @@ small.text-danger {
 }
 
 // navbar links
+.nav-item.active .nav-link {
+  background: none;
+}
+
 .navbar .navbar-nav .nav-link {
   color: $wjt-white;
 
