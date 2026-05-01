@@ -1,19 +1,20 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rdcmtemplate <a href="https://rdcmtemplate.r-dcm.org"><img src="man/figures/logo.png" align="right" height="138" alt="Package hex logo" /></a>
+# wjaketemplate <a href="https://wjaketemplate.wjakethompson.com"><img src="man/figures/logo.png" align="right" height="138" alt="Package hex logo" /></a>
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/r-dcm/rdcmtemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-dcm/rdcmtemplate/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/wjakethompson/wjaketemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wjakethompson/wjaketemplate/actions/workflows/R-CMD-check.yaml)
 [![Check
-accessibility](https://img.shields.io/badge/check-accessibility-orange.svg)](https://wave.webaim.org/report#/https://rdcmtemplate.r-dcm.org)
+accessibility](https://img.shields.io/badge/check-accessibility-orange.svg)](https://wave.webaim.org/report#/https://wjaketemplate.wjakethompson.com)
 <!-- badges: end -->
 
 ## Overview
 
-rdcmtemplate provides a custom [pkgdown](https://pkgdown.r-lib.org)
-template for r-dcm packages. Please don’t use it for your own package.
+wjaketemplate provides a custom [pkgdown](https://pkgdown.r-lib.org)
+template for my personal packages. Please don’t use it for your own
+package.
 
 This package and template were inspired by
 [tidytemplate](https://github.com/tidyverse/tidytemplate).
@@ -22,13 +23,13 @@ This package and template were inspired by
 
 For all sites, ensure that `DESCRIPTION` contains:
 
-    Config/Needs/website: r-dcm/rdcmtemplate
+    Config/Needs/website: wjakethompson/wjaketemplate
 
-### r-dcm
+### wjake
 
 ``` yaml
 template:
-  package: rdcmtemplate
+  package: wjaketemplate
   bootstrap: 5
   
   includes:
@@ -39,8 +40,6 @@ development:
   mode: auto
 ```
 
-Ping Jake on teams to get your site added to goat counter.
-
 ### Updating
 
 If you’re updating from a previous pkgdown config, use the following
@@ -48,13 +47,10 @@ checklist to make sure everything is up to date:
 
 ``` md
 * [ ] `usethis::use_pkgdown_github_pages()`
-* [ ] Ensure Author includes University of Kansas as copyright holder
-* [ ] Update `DESCRIPTION` to include `Config/Needs/website: r-dcm/rdcmtemplate`
+* [ ] Update `DESCRIPTION` to include `Config/Needs/website: wjakethompson/wjaketemplate`
 * [ ] Update `_pkgdown.yml` with appropriate template above.
-* [ ] Ping Jake to add goat counter record
 * [ ] Remove `strip_header: true`
 * [ ] Remove algolia search, if used
 * [ ] Eliminate superseded navbar customisation (`home: ~`, article re-ordering)
 * [ ] Update `news` structure if needed
-* [ ] Remove any author info for r-dcm folks (since now included in template)
 ```

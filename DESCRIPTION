@@ -1,18 +1,15 @@
-Package: rdcmtemplate
-Title: 'pkgdown' Templates for Core 'r-dcm' Packages
+Package: wjaketemplate
+Title: 'pkgdown' Templates for Personal R Packages
 Version: 1.0.0
 Authors@R: c(
-    person("W. Jake", "Thompson", , "wjakethompson@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-7339-0300")),
-    person("Institute of Education Sciences", role = "fnd"),
-    person("Accessible Teaching, Learning, and Assessment Systems", role = "fnd"),
-    person("University of Kansas", role = c("cph"))
+    person("W. Jake", "Thompson", , "wjakethompson@gmail.com", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0001-7339-0300"))
   )
-Description: This is a private template for use by core r-dcm packages.
+Description: This is a private template for my personal R packages.
     Please don't use for your own code.
 License: MIT + file LICENSE
-URL: https://github.com/r-dcm/rdcmtemplate, https://rdcmtemplate.r-dcm.org
-BugReports: https://github.com/r-dcm/rdcmtemplate/issues
+URL: https://github.com/wjakethompson/wjaketemplate, https://wjaketemplate.wjakethompson.com
+BugReports: https://github.com/wjakethompson/wjaketemplate/issues
 Imports: 
     tidytemplate (>= 1.0.0)
 Suggests: 

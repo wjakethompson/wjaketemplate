@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
-
-$msr-blue: #8ECAE6;
-$msr-teal: #219EBC;
-$msr-navy: #023047;
-$msr-red: #D7263D;
-$msr-cream: #F3D3BD;
+$wjt-white: #F0F0F0;
+$wjt-black: #272727;
+$wjt-yellow: #FED766;
+$wjt-blue: #009FB7;
+$wjt-grey: #696773;
 
 $faint-background: #f9f9f9 !default;
 $faint-border: #efefef !default;
@@ -49,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $msr-navy;
+  color: $wjt-black;
   font-weight: 500;
 }
 
@@ -107,46 +105,49 @@ h6 {
 
 nav.navbar {
   border-bottom: 1px solid $faint-border;
-  background-color: $msr-navy;
+  background-color: $wjt-black;
   padding: 1rem 0;
 }
 
 // pgk name
 .navbar .navbar-brand {
-  font-family: Ubuntu;
+  font-family: Oxygen;
   font-weight: 700;
   font-size: 1.7rem;
-  color: $msr-blue;
+  color: $wjt-white;
 }
 
 // version number
 small.text-muted {
-  color: $msr-teal !important;
+  color: $wjt-white !important;
 }
 
 small.text-danger {
-  color: $msr-red !important;
+  color: $wjt-black !important;
+  background: $wjt-yellow !important;
+  padding: 0 .2em;
+  border-radius: .4em;
 }
 
 // navbar links
 .navbar .navbar-nav .nav-link {
-  color: $msr-blue;
+  color: $wjt-white;
 
   &:hover,
   &:focus {
-    color: $msr-teal;
+    color: $wjt-blue;
     background: none;
   }
 }
 
 // navbar dropdown menus
 .dropdown-menu {
-  background: $msr-navy;
+  background: $wjt-black;
   box-shadow: 0 2px 5px 0 rgba(120, 120, 120, .1);
   font-size: 80%;
 
   .dropdown-item {
-    color: $msr-blue;
+    color: $wjt-white;
   }
 }
 
@@ -154,18 +155,18 @@ small.text-danger {
 
   &:hover,
   &:focus {
-    background: $msr-navy;
-    color: $msr-teal;
+    background: $wjt-black;
+    color: $wjt-blue;
     text-decoration: underline;
   }
 }
 
 .dropdown-header {
-  color: $msr-teal;
+  color: $wjt-white;
 }
 
 .dropdown-divider {
-  border-top: 1px solid $msr-blue;
+  border-top: 1px solid $wjt-blue;
 }
 
 // search bar
@@ -173,14 +174,14 @@ input.form-control {
   border-radius: 0.5rem;
 
   &:focus {
-    border-color: $msr-blue;
+    border-color: $wjt-blue;
     box-shadow: 0 0 0 .25rem rgba(142, 202, 230, 0.25);
   }
 }
 
 // collapsed toggler
 span.navbar-toggler-icon {
-  filter: brightness(0) saturate(100%) invert(68%) sepia(34%) saturate(366%) hue-rotate(154deg) brightness(107%) contrast(88%);
+  filter: brightness(0) saturate(100%) invert(39%) sepia(75%) saturate(3751%) hue-rotate(164deg) brightness(102%) contrast(101%);
 
 }
 
@@ -207,7 +208,7 @@ aside {
     margin-top: 2rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    color: $msr-navy;
+    color: $wjt-black;
   }
 
   div:first-child h2 {
@@ -242,7 +243,7 @@ aside {
     }
 
     &.active {
-      color: $msr-navy;
+      color: $wjt-blue;
       font-weight: 600;
     }
 

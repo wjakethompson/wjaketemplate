@@ -1,11 +1,11 @@
 template:
   bslib:
     light-switch: false
-    primary: "#D7263D"
+    primary: "#009FB7"
     bg: "#FFFFFF"
     fg: "#333"
-    base_font: {google: {family: "Open Sans", wght: [400, 600], ital: [0, 1]}}
-    heading_font: {google: {family: "Playfair Display", wght: [400, 600], ital: [0, 1]}}
+    base_font: {google: {family: "Source Sans 3", wght: [400, 600], ital: [0, 1]}}
+    heading_font: {google: {family: "Oxygen", wght: [400, 600], ital: [0, 1]}}
     code_font: {google: "Fira Code"}
     font_scale: 1.2
     border-radius: 0
@@ -27,21 +27,7 @@ authors:
   footer:
     roles: [cre]
   sidebar:
-    roles: [aut]
-  
-  Institute of Education Sciences:
-    href: https://r-dcm.org/funding
-    html: >-
-      <img src='https://r-dcm.org/assets/img/funding/ies.svg' alt='Institute of Education Sciences' width='350' style="margin-bottom: 31px;" />
-  Accessible Teaching, Learning, and Assessment Systems:
-    href: https://r-dcm.org/funding
-    html: >-
-      <img src='https://r-dcm.org/assets/img/funding/atlas.svg' alt='Accessible Teaching, Learning, and Assessment Systems' width='610' style="margin-bottom: 27px;" />
-  University of Kansas:
-    href: https://www.ku.edu
-    html: >-
-      <img src='https://r-dcm.org/assets/img/funding/ku.jpg' alt='University of Kansas' width='244' style="margin-bottom: 44px;" />
-  
+    roles: [aut]  
 
   W. Jake Thompson:
     href: https://wjakethompson.com

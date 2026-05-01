@@ -1,8 +1,8 @@
 template:
-  package: rdcmtemplate
+  package: wjaketemplate
   bootstrap: 5
 
-url: https://rdcmtemplate.r-dcm.org
+url: https://wjaketemplate.wjakethompson.com
 
 articles:
 - title: Get started
