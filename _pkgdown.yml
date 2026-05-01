@@ -1,8 +1,7 @@
+url: https://wjaketemplate.wjakethompson.com
 template:
   package: wjaketemplate
   bootstrap: 5
-
-url: https://wjaketemplate.wjakethompson.com
 
 articles:
 - title: Get started
