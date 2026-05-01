@@ -3,6 +3,9 @@ template:
   package: wjaketemplate
   bootstrap: 5
 
+development:
+  mode: devel
+
 articles:
 - title: Get started
   navbar: ~
